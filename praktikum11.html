@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <hend>
+        <titel>praktikum 11</titel>
+    </hend>
+    <body>
+
+        <h3>my first google map</h3>
+        <div id="map" style="width:400px;background:yellow"></div>
+
+        <script>
+        function mymap (){
+             var mapoptions = {
+                 center: new google.maps.LatLng(51.5,-0.12),
+                zoom: 10,
+                maptypeld: google.maps.maptypeid.HYBRID
+                }
+            var map = new google.maps.map(document.getelementbyid("map"),mapoptions);}
+        </script>
+        <script src="
+        https://maps.googleapis.com/maps/api/js?key=AizasyBu-916DdpKAjTmJNIgngs6HL_kDIKUOaU&callback=mymap"
+        ></script>
+    </body>
+</html>
